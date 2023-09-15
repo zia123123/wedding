@@ -336,7 +336,7 @@ const renderLoading = (num) => {
 
 const pagination = (() => {
 
-    const perPage = 5;
+    const perPage = 10;
     let pageNow = 0;
     let resultData = 0;
 
@@ -471,6 +471,7 @@ const login = async () => {
             return;
         });
 };
+
 
 const kirim = async () => {
     let nama = document.getElementById('formnama').value;
